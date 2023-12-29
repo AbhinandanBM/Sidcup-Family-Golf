@@ -108,7 +108,7 @@ video {
 }
 
 #page2 {
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   z-index: 10;
 }
@@ -157,4 +157,68 @@ video {
   to {
     transform: translateX(-100%);
   }
+}
+
+#about-us {
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 50px;
+  position: relative;
+  z-index: 10;
+}
+
+#about-us img {
+  height: 220px;
+  width: 220px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+#about-us-in {
+  width: 40%;
+  text-align: center;
+}
+
+#about-us-in h3 {
+  font-size: 50px;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+
+#about-us-in p {
+  font-size: 18px;
+  line-height: 26px;
+}
+
+#cards-container {
+  /* background-color: red; */
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+}
+
+.cards {
+  /* background-color: blue; */
+  height: 80%;
+  width: 25%;
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+}
+
+#card1 {
+  background-image: url(Assests/card1.avif);
+}
+
+#card2 {
+  background-image: url(Assests/card2.webp);
+}
+
+#card3 {
+  background-image: url(Assests/card3.avif);
 }
