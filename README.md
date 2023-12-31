@@ -6,7 +6,7 @@ Playful and engaging landing page showcasing the wonders of Sidcup Family Golf f
 
 ## Tech Stack
 
-HTMl, CSS, Javascript
+HTML, CSS, Javascript
 
 
 ## Feedback
